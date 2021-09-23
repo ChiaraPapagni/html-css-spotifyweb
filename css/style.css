@@ -162,6 +162,7 @@ Main
     background-color: #00000079;
     justify-content: flex-end;
     align-items: center;
+    z-index: 2;
 }
 
 .upgrade_btn {
@@ -224,11 +225,11 @@ Main
 
 .played .album {
     min-height: 320px;
-
 }
 
 .album_image {
     width: 100%;
+    position: relative;
 }
 
 .album_image img {
@@ -251,6 +252,27 @@ Main
 
 .artists .album_image img {
     border-radius: 50%;
+}
+
+.play {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-110px, -50%);
+    width: 100%;
+    height: 220px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.album_image:hover .hidden {
+    visibility: visible;
+    cursor: pointer;
 }
 
 /******************
