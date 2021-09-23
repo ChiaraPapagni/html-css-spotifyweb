@@ -49,6 +49,10 @@ h2 {
     font-size: 1.4rem;
 }
 
+h3 {
+    font-size: 1rem;
+}
+
 /******************
 Main
 ******************/
@@ -205,8 +209,9 @@ Main
 
 .album {
     float: left;
-    width: 16%;
-    padding: 1rem;
+    width: 220px;
+    min-height: 300px;
+    margin: 2rem 1rem 0 0;
 }
 
 .album_image {
@@ -214,7 +219,20 @@ Main
 }
 
 .album_image img {
-    width: 200px;
+    width: 220px;
+}
+
+.album_info {
+    text-align: center;
+}
+
+.album_info h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.album_info p {
+    color: #A3A3A3;
 }
 
 /******************
