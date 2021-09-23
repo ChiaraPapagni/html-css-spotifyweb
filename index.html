@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spotify</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+            rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
             integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous"
@@ -99,7 +104,7 @@
             </aside>
             <!-- /.sidebars -->
 
-            <div class="content">
+            <div class="container">
                 <div class="upgrade d_flex">
                     <div class="upgrade_btn">
                         Effettua l'upgrade
@@ -107,8 +112,137 @@
                 </div>
                 <!-- /.upgrade -->
 
+                <nav class="navbar d_flex">
+                    <ul class="list_style">
+                        <li class="selected">
+                            <a href="#">In evidenza</a>
+                        </li>
+                        <li>
+                            <a href="#">Podcast</a>
+                        </li>
+                        <li>
+                            <a href="#">Classifiche</a>
+                        </li>
+                        <li>
+                            <a href="#">Generi e mood</a>
+                        </li>
+                        <li>
+                            <a href="#">Nuove uscite</a>
+                        </li>
+                        <li>
+                            <a href="#">Scopri</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- /.navbar -->
+
+                <div class="content">
+                    <h2>Recently played</h2>
+                    <div class="played clearfix">
+                        <div class="album">
+                            <div class="album_image">
+                                <div class="play hidden">
+                                    <i class="fas fa-play-circle fa-3x"></i>
+                                </div>
+                                <img src="./img/metal_lifting.jpg">
+                            </div>
+                            <!-- /.album_image -->
+                            <div class="album_info">
+                                <h3>Heavy Metal</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <!-- /.album_info -->
+                        </div>
+                        <!-- /.album -->
+
+                        <div class="album">
+                            <div class="album_image">
+                                <div class="play hidden">
+                                    <i class="fas fa-play-circle fa-3x"></i>
+                                </div>
+                                <img src="./img/stranger.jpeg">
+                            </div>
+                            <!-- /.album_image -->
+                            <div class="album_info">
+                                <h3>Stranger Things, Vol.1 (a Netflix Original
+                                    Series Soundtrack)</h3>
+                                <p>Kyle Dixon & Michael Stein</p>
+                            </div>
+                            <!-- /.album_info -->
+                        </div>
+                        <!-- /.album -->
+
+                        <div class="album">
+                            <div class="album_image">
+                                <div class="play hidden">
+                                    <i class="fas fa-play-circle fa-3x"></i>
+                                </div>
+                                <img src="./img/aquietplace.jpeg">
+                            </div>
+                            <!-- /.album_image -->
+                            <div class="album_info">
+                                <h3>A quiet place</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <!-- /.album_info -->
+                        </div>
+                        <!-- /.album -->
+
+                        <div class="album">
+                            <div class="album_image">
+                                <div class="play hidden">
+                                    <i class="fas fa-play-circle fa-3x"></i>
+                                </div>
+                                <img src="./img/split.jpeg">
+                            </div>
+                            <!-- /.album_image -->
+                            <div class="album_info">
+                                <h3>Split</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <!-- /.album_info -->
+                        </div>
+                        <!-- /.album -->
+
+                        <div class="album">
+                            <div class="album_image">
+                                <div class="play hidden">
+                                    <i class="fas fa-play-circle fa-3x"></i>
+                                </div>
+                                <img src="./img/cure.jpeg">
+                            </div>
+                            <!-- /.album_image -->
+                            <div class="album_info">
+                                <h3>A cure for wellness</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <!-- /.album_info -->
+                        </div>
+                        <!-- /.album -->
+
+                        <div class="album">
+                            <div class="album_image">
+                                <div class="play hidden">
+                                    <i class="fas fa-play-circle fa-3x"></i>
+                                </div>
+                                <img src="./img/sinister.jpeg">
+                            </div>
+                            <!-- /.album_image -->
+                            <div class="album_info">
+                                <h3>sinister</h3>
+                                <p>Subtitle</p>
+                            </div>
+                            <!-- /.album_info -->
+                        </div>
+                        <!-- /.album -->
+                    </div>
+                    <!-- /.played -->
+                </div>
+                <!-- /.content -->
+
+
             </div>
-            <!-- /.content -->
+            <!-- /.container -->
 
         </main>
         <!-- /#site_main -->
