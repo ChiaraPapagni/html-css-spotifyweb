@@ -270,6 +270,10 @@ Main
     visibility: hidden;
 }
 
+.artists .album_image .play {
+    border-radius: 50%;
+}
+
 .album_image:hover .hidden {
     visibility: visible;
     cursor: pointer;
