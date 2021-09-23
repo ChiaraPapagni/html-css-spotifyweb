@@ -10,7 +10,8 @@ Common
 body {
     width: 100%;
     height: 100vh;
-    background-color: blue;
+    background-color: #141922;
+    color: #ffffff;
 }
 
 .clearfix {
@@ -19,21 +20,32 @@ body {
     clear: both;
 }
 
+.d_flex {
+    display: flex;
+}
+
 /******************
 Main
 ******************/
 /* Sidebar */
 .sidebar {
-    width: 200px;
-    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 230px;
+    height: calc(100vh - 90px);
     float: left;
-    background-color: black;
+    background-color: #000000;
+}
+
+.logo img {
+    width: 150px;
 }
 
 /* Content */
 .content {
-    height: calc(100vh - 100px);
-    overflow-y: scroll;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
 }
 
 /******************
@@ -41,6 +53,6 @@ Main
 ******************/
 .control {
     width: 100%;
-    height: 100px;
-    background-color: grey;
+    height: 90px;
+    background-color: #282828;
 }
