@@ -6,13 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spotify</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
     </head>
     <body>
 
         <main id="site_main" class="clearfix">
 
             <aside class="sidebar d_flex">
-                <div class="top_sidebar">
+                <div class="top_sidebar line_height">
                     <div class="logo">
                         <img src="./img/logo.svg" alt="logo spotify">
                     </div>
@@ -20,21 +24,34 @@
 
                     <div class="info">
                         <div class="home">
-                            Home
+                            <a href="#">
+                                <img src="./img/home.svg">
+                                Home
+                            </a>
                         </div>
                         <div class="search">
-                            Cerca
+                            <a href="#">
+                                <img src="./img/search.svg">
+                                Cerca
+                            </a>
                         </div>
                         <div class="library">
-                            La tua libreria
+                            <a href="#">
+                                <img src="./img/libreria.svg">
+                                La tua libreria
+                            </a>
                         </div>
                     </div>
                     <!-- /.info -->
 
                     <div class="playlist">
-                        <ul>
+                        <p>Playlist</p>
+                        <ul class="list_style">
                             <li>
-                                <a href="#">Crea Playlist</a>
+                                <a href="#">
+                                    <i class="fas fa-plus"></i>
+                                    Crea Playlist
+                                </a>
                             </li>
                             <li>
                                 <a href="#">Nome Playlist</a>
@@ -64,11 +81,20 @@
 
                 <div class="bottom_sidebar">
                     <div class="install">
-                        <a href="#">Installa app</a>
+                        <a href="#">
+                            <img src="./img/download.svg">
+                            Installa app
+                        </a>
                     </div>
+                    <!-- /.install -->
+
                     <div class="user">
-                        <a href="#">John Doe</a>
+                        <a href="#">
+                            <img src="./img/profile.svg">
+                            John Doe
+                        </a>
                     </div>
+                    <!-- /.user -->
                 </div>
             </aside>
             <!-- /.sidebars -->
