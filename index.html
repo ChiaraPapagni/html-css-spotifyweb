@@ -18,7 +18,7 @@
     </head>
     <body>
 
-        <main id="site_main" class="clearfix">
+        <main id="site_main" class="d_flex">
 
             <aside class="sidebar d_flex">
                 <div class="top_sidebar line_height">
@@ -335,18 +335,30 @@
                         <h4>Hilltop Hoods</h4>
                         <p>Clark Griswold</p>
                     </div>
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-folder"></i>
                 </div>
-                <div class="central">
-                    <i class="fas fa-random"></i>
-                    <i class="fas fa-step-backward"></i>
-                    <i class="far fa-play-circle"></i>
-                    <i class="fas fa-step-forward"></i>
-                    <i class="fas fa-redo-alt"></i>
+                <div class="central d_flex">
+                    <div class="controlls">
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                        <i class="far fa-play-circle"></i>
+                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <div class="timeline d_flex">
+                        <p>0:25</p>
+                        <div class="line"></div>
+                        <p>4:35</p>
+                    </div>
                 </div>
-                <div class="right">
+                <div class="right d_flex">
                     <i class="fas fa-list-ul"></i>
                     <i class="fas fa-desktop"></i>
-                    <i class="fas fa-volume-up"></i>
+                    <div class="volume d_flex">
+                        <i class="fas fa-volume-up"></i>
+                        <div class="volume_line"></div>
+                    </div>
                 </div>
             </div>
             <!-- /.control -->
