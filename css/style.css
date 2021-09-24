@@ -551,10 +551,6 @@ Media Query
         width: 55px;
     }
 
-    .logo_big {
-        display: none;
-    }
-
     .logo_small {
         display: block;
         margin-left: -2px;
@@ -565,16 +561,17 @@ Media Query
         width: 30px;
     }
 
-    .info p {
+    .logo_big,
+    .info p,
+    .playlist,
+    .install p,
+    .user p,
+    .volume .volume_line {
         display: none;
     }
 
     .info .home {
         border-left: none;
-    }
-
-    .playlist {
-        display: none;
     }
 
     .install {
@@ -583,11 +580,6 @@ Media Query
 
     .install img {
         margin-left: 2px;
-    }
-
-    .install p,
-    .user p {
-        display: none;
     }
 
     /* Container */
@@ -602,5 +594,78 @@ Media Query
     /* Footer */
     .player img {
         width: 40px;
+    }
+
+    .timeline>.line {
+        border-left: 20px solid #C1C1C1;
+    }
+
+    .circle_timeline {
+        left: 50px;
+    }
+
+    .right i {
+        margin-left: 0.5rem;
+    }
+
+    .volume {
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .navbar,
+    .upgrade {
+        display: none;
+    }
+
+    /* Content */
+    .content h2 {
+        margin-top: 0;
+    }
+
+    .played h2 {
+        margin-top: 1rem;
+    }
+
+    .content h3 {
+        font-size: 0.8rem;
+    }
+
+    .content p {
+        font-size: 0.7rem;
+    }
+
+    .album {
+        min-height: 200px;
+    }
+
+    /* Footer */
+    .left .image_desc,
+    .left .actions,
+    .right>i,
+    .volume .volume_line {
+        display: none;
+    }
+
+    .central .controlls i {
+        font-size: 0.95rem;
+    }
+
+    .central .controlls .fa-play-circle {
+        font-size: 1.5rem;
+    }
+
+    .controlls .fa-play-circle:hover {
+        font-size: 1.5rem;
+    }
+
+    .timeline>.line {
+        border-left: 50px solid #C1C1C1;
+    }
+
+    .volume {
+        margin-right: 0.5rem;
     }
 }
