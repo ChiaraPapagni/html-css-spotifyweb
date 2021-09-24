@@ -28,6 +28,10 @@ Utility
     display: flex;
 }
 
+.logo_small {
+    display: none;
+}
+
 .list_style {
     list-style: none;
 }
@@ -368,7 +372,7 @@ Footer
     margin-left: 0.7rem;
 }
 
-.left i {
+.actions i {
     font-size: 1rem;
     color: #A3A3A3;
     margin-left: 1rem;
@@ -379,9 +383,15 @@ Footer
     justify-content: center;
 }
 
+.controlls {
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
 .controlls>i {
     font-size: 1.05rem;
-    margin: 0 1rem 1rem 1rem;
 }
 
 .controlls .fa-play-circle {
@@ -500,6 +510,11 @@ Media Query
     .album .fa-play-circle {
         font-size: 3rem;
     }
+
+    /* Footer */
+    .controlls {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -518,4 +533,74 @@ Media Query
         margin-bottom: 1rem;
     }
 
+    /* Footer */
+    .actions i {
+        display: block;
+        margin: 0.4rem 1rem;
+    }
+
+    .timeline {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:568px) {
+
+    /* Sidebar */
+    .sidebar {
+        width: 55px;
+    }
+
+    .logo_big {
+        display: none;
+    }
+
+    .logo_small {
+        display: block;
+        margin-left: -2px;
+    }
+
+    .logo img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .info p {
+        display: none;
+    }
+
+    .info .home {
+        border-left: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .install {
+        border-bottom: none;
+    }
+
+    .install img {
+        margin-left: 2px;
+    }
+
+    .install p,
+    .user p {
+        display: none;
+    }
+
+    /* Container */
+    .container {
+        width: calc(100% - 55px);
+    }
+
+    .upgrade {
+        width: calc(100% - 55px);
+    }
+
+    /* Footer */
+    .player img {
+        width: 40px;
+    }
 }
