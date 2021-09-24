@@ -45,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #FFFFFF;
+}
+
 h2 {
     font-size: 1.4rem;
 }
@@ -72,6 +76,11 @@ Main
     width: 230px;
     height: 100%;
     background-color: #000000;
+    overflow: hidden;
+}
+
+.top_sidebar,
+.bottom_sidebar {
     padding: 1rem 1rem 0.5rem 1rem;
 }
 
@@ -116,6 +125,10 @@ Main
     padding: 0.6rem;
     margin-right: 0.3rem;
     color: black;
+}
+
+.playlist ul>li i:hover {
+    background-color: #FFFFFF;
 }
 
 .install {
@@ -299,8 +312,18 @@ Footer
     justify-content: space-between;
 }
 
-.player i {
+
+.player img,
+.player h4,
+.player p,
+.player i,
+.timeline>.line,
+.volume>.volume_line {
     cursor: pointer;
+}
+
+.player i:hover {
+    color: #FFFFFF;
 }
 
 .player img {
@@ -331,6 +354,11 @@ Footer
     font-size: 0.6rem;
 }
 
+.image_desc p:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
 .image_desc {
     margin-left: 0.7rem;
 }
@@ -354,6 +382,10 @@ Footer
 .controlls .fa-play-circle {
     font-size: 1.8rem;
     vertical-align: sub;
+}
+
+.controlls .fa-play-circle:hover {
+    font-size: 2rem;
 }
 
 .timeline>p {
