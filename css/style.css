@@ -49,6 +49,10 @@ a {
     text-decoration: none;
 }
 
+a p:hover {
+    color: #FFFFFF;
+}
+
 a:hover {
     color: #FFFFFF;
 }
@@ -102,7 +106,7 @@ Main
 
 .info img {
     width: 25px;
-    vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .info .home {
@@ -142,27 +146,27 @@ Main
 .install {
     border-bottom: 1px solid #A3A3A3;
     padding-bottom: 0.5rem;
+    align-items: center;
 }
 
 .install img {
     width: 18px;
-    vertical-align: middle;
     margin-right: 0.5rem;
 }
 
 .user {
     margin-top: 1rem;
     font-weight: bold;
+    align-items: center;
 }
 
-.user a {
+.user p {
     color: #ffffff;
 }
 
 .user img {
     width: 25px;
     height: 25px;
-    vertical-align: middle;
     margin-right: 0.3rem;
     background-color: #808080;
     border-radius: 50%;
