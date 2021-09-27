@@ -114,7 +114,12 @@ Main
 
 .menu img {
     width: 25px;
-    margin-right: 0.5rem;
+}
+
+.menu .home,
+.menu .search,
+.menu .library {
+    gap: 0.5rem;
 }
 
 .menu .home {
