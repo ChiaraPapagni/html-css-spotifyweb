@@ -1,3 +1,84 @@
+body {
+    background-color: #121212;
+}
+
+/******************
+Utility
+******************/
+/* Background Colors */
+.wisteria {
+    background-color: #8D67AB;
+}
+
+.alizarin_crimson {
+    background-color: #E61E32;
+}
+
+.eucalyptus {
+    background-color: #27856a;
+}
+
+.biscay {
+    background-color: #1E3264;
+}
+
+.razzmatazz {
+    background-color: #E8115B;
+}
+
+.red_violet {
+    background-color: #dc148c;
+}
+
+.mai_tai {
+    background-color: #ba5d07;
+}
+
+.wedgewood {
+    background-color: #477d95;
+}
+
+.japanese_laurel {
+    background-color: #148a08;
+}
+
+.boulder {
+    background-color: #777;
+}
+
+.east_side {
+    background-color: #b49bc8;
+}
+
+.grenadier {
+    background-color: #e13300;
+}
+
+.azure_radiance {
+    background-color: #0d73ec;
+}
+
+.eggplant {
+    background-color: #503750;
+}
+
+.medium_red_violet {
+    background-color: #af2896;
+}
+
+.claret {
+    background-color: #8c1932;
+}
+
+.cornflower_blue {
+    background-color: #509bf5;
+}
+
+.governor_bay {
+    background-color: #2d46b9;
+}
+
+
 /* Sidebar */
 .menu a .home p {
     color: #A3A3A3;
@@ -82,4 +163,157 @@ header .user_icon {
 
 header .user_icon i {
     font-size: 1.7rem;
+}
+
+/******************
+Main
+******************/
+.content {
+    margin-top: 60px;
+}
+
+.content h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.searches_artist {
+    width: 180px;
+    background: #181818;
+    border-radius: 4px;
+    padding: 1rem;
+    position: relative;
+}
+
+.searches_artist:hover {
+    background-color: #282828;
+    cursor: pointer;
+}
+
+.searches .row {
+    position: relative;
+}
+
+.searches_artist .green_play>i {
+    color: #FFFFFF;
+}
+
+.green_play {
+    display: none;
+    width: 35px;
+    height: 35px;
+    background-color: #1DB954;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.searches_artist:hover .green_play {
+    display: block;
+}
+
+.searches_artist img:first-child {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.searches_artist img:nth-child(2) {
+    width: 150px;
+    border-radius: 50%;
+    padding-bottom: 0.5rem;
+}
+
+.searches_artist h3 {
+    font-size: 0.9rem;
+}
+
+.searches_artist p {
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.genres a {
+    color: white;
+}
+
+.genres h3 {
+    font-size: 2.3rem;
+    padding: 1rem;
+}
+
+.row {
+    width: 100%;
+    overflow-x: hidden;
+    gap: 1rem;
+    flex-wrap: nowrap;
+}
+
+.music_genre {
+    width: 460px;
+    flex-shrink: 0;
+}
+
+.pop,
+.rock {
+    width: 100%;
+    height: 220px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.music_genre img {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    bottom: -8px;
+    right: -22px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    transform: rotate(25deg);
+}
+
+.browse {
+    margin-bottom: 2rem;
+}
+
+.browse a {
+    color: white;
+}
+
+.browse h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.browse_genre {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.browse_genre div {
+    width: 185px;
+    height: 185px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.browse_genre img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: -8px;
+    right: -22px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    transform: rotate(25deg);
 }
