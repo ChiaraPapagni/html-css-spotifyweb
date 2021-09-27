@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spotify</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="icon" href="./img/favicon.ico" />
+        <title>Spotify - Ricerca</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/search.css">
+        <link rel="icon" href="../img/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -18,33 +19,47 @@
             referrerpolicy="no-referrer" />
     </head>
     <body>
+        <header id="site_header" class="search_bar d_flex">
+            <div class="arrows d_flex">
+                <i class="fas fa-chevron-left fa-lg"></i>
+                <i class="fas fa-chevron-right fa-lg"></i>
+            </div>
+            <div class="input_search d_flex">
+                <img src="../img/search.svg">
+                <p>Artisti, brani o podcast</p>
+            </div>
+            <div class="user_icon">
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </header>
+        <!-- /#site_header -->
 
         <main id="site_main" class="d_flex">
 
             <aside class="sidebar d_flex">
                 <div class="logo line_height">
-                    <img src="./img/logo.svg" alt="logo spotify"
+                    <img src="../img/logo.svg" alt="logo spotify"
                         class="logo_big">
-                    <img src="./img/logo-small.svg" class="logo_small">
+                    <img src="../img/logo-small.svg" class="logo_small">
                 </div>
                 <!-- /.logo -->
 
                 <div class="menu line_height">
-                    <a href="#">
+                    <a href="../index.html">
                         <div class="home d_flex">
-                            <img src="./img/home.svg">
+                            <img src="../img/home.svg">
                             <p>Home</p>
                         </div>
                     </a>
-                    <a href="./pages/search.html">
+                    <a href="#">
                         <div class="search d_flex">
-                            <img src="./img/search.svg">
+                            <img src="../img/search.svg">
                             <p>Cerca</p>
                         </div>
                     </a>
                     <a href="#">
                         <div class="library d_flex">
-                            <img src="./img/libreria.svg">
+                            <img src="../img/libreria.svg">
                             <p>La tua libreria</p>
                         </div>
                     </a>
@@ -89,7 +104,7 @@
                 <div class="bottom_sidebar">
                     <a href="#">
                         <div class="install d_flex">
-                            <img src="./img/download.svg">
+                            <img src="../img/download.svg">
                             <p>Installa app</p>
                         </div>
                     </a>
@@ -97,7 +112,7 @@
 
                     <a href="#">
                         <div class="user d_flex">
-                            <img src="./img/profile.svg">
+                            <img src="../img/profile.svg">
                             <p>John Doe</p>
                         </div>
                     </a>
@@ -107,40 +122,9 @@
             <!-- /.sidebars -->
 
             <div class="container">
-                <div class="upgrade d_flex">
-                    <div class="upgrade_btn">
-                        Effettua l'upgrade
-                    </div>
-                </div>
-                <!-- /.upgrade -->
-
-                <nav class="navbar d_flex">
-                    <ul class="list_style">
-                        <li class="selected">
-                            <a href="#">In evidenza</a>
-                        </li>
-                        <li>
-                            <a href="#">Podcast</a>
-                        </li>
-                        <li>
-                            <a href="#">Classifiche</a>
-                        </li>
-                        <li>
-                            <a href="#">Generi e mood</a>
-                        </li>
-                        <li>
-                            <a href="#">Nuove uscite</a>
-                        </li>
-                        <li>
-                            <a href="#">Scopri</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- /.navbar -->
-
                 <div class="content">
-                    <div class="played">
-                        <h2>Recently played</h2>
+                    <div class="genres">
+                        <h2>I tuoi generi top</h2>
 
                         <div class="row clearfix">
 
@@ -178,77 +162,13 @@
                                 <!-- /.album_info -->
                             </div>
                             <!-- /.col -->
-
-                            <div class="col">
-                                <div class="album_image">
-                                    <div class="play hidden">
-                                        <i class="far fa-play-circle fa-5x"></i>
-                                    </div>
-                                    <img src="./img/aquietplace.jpeg">
-                                </div>
-                                <!-- /.album_image -->
-                                <div class="album_info">
-                                    <h3>A quiet place</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                                <!-- /.album_info -->
-                            </div>
-                            <!-- /.col -->
-
-                            <div class="col">
-                                <div class="album_image">
-                                    <div class="play hidden">
-                                        <i class="far fa-play-circle fa-5x"></i>
-                                    </div>
-                                    <img src="./img/split.jpeg">
-                                </div>
-                                <!-- /.album_image -->
-                                <div class="album_info">
-                                    <h3>Split</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                                <!-- /.album_info -->
-                            </div>
-                            <!-- /.col -->
-
-                            <div class="col">
-                                <div class="album_image">
-                                    <div class="play hidden">
-                                        <i class="far fa-play-circle fa-5x"></i>
-                                    </div>
-                                    <img src="./img/cure.jpeg">
-                                </div>
-                                <!-- /.album_image -->
-                                <div class="album_info">
-                                    <h3>A cure for wellness</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                                <!-- /.album_info -->
-                            </div>
-                            <!-- /.col -->
-
-                            <div class="col">
-                                <div class="album_image">
-                                    <div class="play hidden">
-                                        <i class="far fa-play-circle fa-5x"></i>
-                                    </div>
-                                    <img src="./img/sinister.jpeg">
-                                </div>
-                                <!-- /.album_image -->
-                                <div class="album_info">
-                                    <h3>Sinister</h3>
-                                    <p>Subtitle</p>
-                                </div>
-                                <!-- /.album_info -->
-                            </div>
-                            <!-- /.col -->
                         </div>
+                        <!-- /.row -->
                     </div>
-                    <!-- /.played -->
+                    <!-- /.genres -->
 
-                    <div class="personal">
-                        <h2>Creato per John Doe</h2>
-                        <p>Più ascolti più accurati saranno i suggerimenti.</p>
+                    <div class="browse">
+                        <h2>Sfoglia tutto</h2>
                         <div class="row clearfix">
 
                             <div class="col">
@@ -281,49 +201,12 @@
                             </div>
                             <!-- /.col -->
                         </div>
+                        <!-- /.row -->
                     </div>
-                    <!-- /.personal -->
-
-                    <div class="artists">
-                        <h2>Artisti più popolari</h2>
-                        <p>Più ascolti più accurati saranno i suggerimenti.</p>
-                        <div class="row clearfix">
-                            <div class="col">
-                                <div class="album_image">
-                                    <div class="play hidden">
-                                        <i class="far fa-play-circle fa-5x"></i>
-                                    </div>
-                                    <img src="./img/youg.jpeg">
-                                </div>
-                                <!-- /.album_image -->
-                                <div class="album_info">
-                                    <h3>Lana Del Rey</h3>
-                                </div>
-                                <!-- /.album_info -->
-                            </div>
-                            <!-- /.col -->
-
-                            <div class="col">
-                                <div class="album_image">
-                                    <div class="play hidden">
-                                        <i class="far fa-play-circle fa-5x"></i>
-                                    </div>
-                                    <img src="./img/einaudi.jpeg">
-                                </div>
-                                <!-- /.album_image -->
-                                <div class="album_info">
-                                    <h3>Ludovico Einaudi</h3>
-                                </div>
-                                <!-- /.album_info -->
-                            </div>
-                            <!-- /.col -->
-                        </div>
-                    </div>
-                    <!-- /.artist -->
+                    <!-- /.browse -->
 
                 </div>
                 <!-- /.content -->
-
             </div>
             <!-- /.container -->
 
@@ -335,7 +218,7 @@
             <div class="player d_flex">
                 <div class="left d_flex">
                     <div class="image">
-                        <img src="./img/player_left.jpg">
+                        <img src="../img/player_left.jpg">
                     </div>
                     <div class="image_desc">
                         <h4>Hilltop Hoods</h4>

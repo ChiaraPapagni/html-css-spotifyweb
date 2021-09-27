@@ -122,6 +122,10 @@ Main
     gap: 0.5rem;
 }
 
+.menu a .home p {
+    color: white;
+}
+
 .menu .home {
     margin-left: -1rem;
     padding-left: 13px;
@@ -156,7 +160,7 @@ Main
 }
 
 .playlist>ul {
-    height: calc(100% - 30px);
+    height: calc(100% - 100px);
     overflow-y: auto;
 }
 
