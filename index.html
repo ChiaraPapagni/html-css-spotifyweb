@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spotify</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -21,70 +22,69 @@
         <main id="site_main" class="d_flex">
 
             <aside class="sidebar d_flex">
-                <div class="top_sidebar line_height">
-                    <div class="logo">
-                        <img src="./img/logo.svg" alt="logo spotify"
-                            class="logo_big">
-                        <img src="./img/logo-small.svg" class="logo_small">
-                    </div>
-                    <!-- /.logo -->
-
-                    <div class="info">
-                        <a href="#">
-                            <div class="home d_flex">
-                                <img src="./img/home.svg">
-                                <p>Home</p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="search d_flex">
-                                <img src="./img/search.svg">
-                                <p>Cerca</p>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="library d_flex">
-                                <img src="./img/libreria.svg">
-                                <p>La tua libreria</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /.info -->
-
-                    <div class="playlist">
-                        <p>Playlist</p>
-                        <ul class="list_style">
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-plus"></i>
-                                    Crea Playlist
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">Nome Playlist</a>
-                            </li>
-                            <li>
-                                <a href="#">Nome Playlist</a>
-                            </li>
-                            <li>
-                                <a href="#">Nome Playlist</a>
-                            </li>
-                            <li>
-                                <a href="#">Nome Playlist</a>
-                            </li>
-                            <li>
-                                <a href="#">Nome Playlist</a>
-                            </li>
-                            <li>
-                                <a href="#">Nome Playlist</a>
-                            </li>
-                            <li>
-                                <a href="#">Nome Playlist</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.playlist -->
+                <div class="logo line_height">
+                    <img src="./img/logo.svg" alt="logo spotify"
+                        class="logo_big">
+                    <img src="./img/logo-small.svg" class="logo_small">
                 </div>
+                <!-- /.logo -->
+
+                <div class="menu line_height">
+                    <a href="#">
+                        <div class="home d_flex">
+                            <img src="./img/home.svg">
+                            <p>Home</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="search d_flex">
+                            <img src="./img/search.svg">
+                            <p>Cerca</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="library d_flex">
+                            <img src="./img/libreria.svg">
+                            <p>La tua libreria</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.menu -->
+
+                <div class="playlist line_height">
+                    <p>Playlist</p>
+                    <div class="create">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                            Crea Playlist
+                        </a>
+                    </div>
+                    <ul class="list_style">
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.playlist -->
+
 
                 <div class="bottom_sidebar">
                     <a href="#">
@@ -144,7 +144,7 @@
 
                         <div class="row clearfix">
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -159,9 +159,9 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -177,9 +177,9 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -193,9 +193,9 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -209,9 +209,9 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -225,9 +225,9 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -241,7 +241,7 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
                         </div>
                     </div>
                     <!-- /.played -->
@@ -251,7 +251,7 @@
                         <p>Più ascolti più accurati saranno i suggerimenti.</p>
                         <div class="row clearfix">
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -264,9 +264,9 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -279,7 +279,7 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
                         </div>
                     </div>
                     <!-- /.personal -->
@@ -288,7 +288,7 @@
                         <h2>Artisti più popolari</h2>
                         <p>Più ascolti più accurati saranno i suggerimenti.</p>
                         <div class="row clearfix">
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -301,9 +301,9 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
 
-                            <div class="col album">
+                            <div class="col">
                                 <div class="album_image">
                                     <div class="play hidden">
                                         <i class="far fa-play-circle fa-5x"></i>
@@ -316,7 +316,7 @@
                                 </div>
                                 <!-- /.album_info -->
                             </div>
-                            <!-- /.album -->
+                            <!-- /.col -->
                         </div>
                     </div>
                     <!-- /.artist -->
