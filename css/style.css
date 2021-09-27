@@ -84,7 +84,6 @@ Main
 /* Sidebar */
 .sidebar {
     flex-direction: column;
-    justify-content: space-between;
     width: 230px;
     height: 100%;
     background-color: #000000;
@@ -103,6 +102,8 @@ Main
 }
 
 .bottom_sidebar {
+    min-height: 80px;
+    margin-top: auto;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
 }
