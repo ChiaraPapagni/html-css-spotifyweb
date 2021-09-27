@@ -78,28 +78,6 @@ Utility
     background-color: #2d46b9;
 }
 
-
-/* Sidebar */
-.menu a .home p {
-    color: #A3A3A3;
-}
-
-.menu .home {
-    margin-left: 0;
-    padding-left: 0;
-    border-left: none;
-}
-
-.menu a .search p {
-    color: white;
-}
-
-.menu .search {
-    margin-left: -1rem;
-    padding-left: 13px;
-    border-left: 3px solid #B4FC46;
-}
-
 /******************
 Header
 ******************/
@@ -168,6 +146,27 @@ header .user_icon i {
 /******************
 Main
 ******************/
+/* Sidebar */
+.menu a .home p {
+    color: #A3A3A3;
+}
+
+.menu .home {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+.menu a .search p {
+    color: white;
+}
+
+.menu .search {
+    margin-left: -1rem;
+    padding-left: 13px;
+    border-left: 3px solid #B4FC46;
+}
+
 .content {
     margin-top: 60px;
 }

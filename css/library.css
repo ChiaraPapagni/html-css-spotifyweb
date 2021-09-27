@@ -1,0 +1,125 @@
+body {
+    background-color: #121212;
+}
+
+/******************
+Utility
+******************/
+
+/******************
+Header
+******************/
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 230px);
+    height: 60px;
+    background-color: #00000079;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1;
+    padding: 0 1rem;
+}
+
+header .arrows {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .arrows>i {
+    width: 30px;
+    height: 30px;
+    background-color: #000000A1;
+    border-radius: 50%;
+    cursor: not-allowed;
+    text-align: center;
+    line-height: 1.9rem;
+}
+
+header .playlist_menu li {
+    padding: 0.8rem 1rem;
+    margin-right: 0.5rem;
+}
+
+header .playlist_menu li>a {
+    color: white;
+}
+
+header .playlist_menu li:first-child {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+header .user_icon {
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+header .user_icon i {
+    font-size: 1.7rem;
+}
+
+/******************
+Main
+******************/
+/* Sidebar */
+.menu a .home p {
+    color: #A3A3A3;
+}
+
+.menu .home {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+}
+
+.menu a .library p {
+    color: white;
+}
+
+.menu .library {
+    margin-left: -1rem;
+    padding-left: 13px;
+    border-left: 3px solid #B4FC46;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.content h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.playlist_box .row {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.playlist_box .col {
+    max-width: 185px;
+    flex-direction: column;
+    background: #181818;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.playlist_box .col:hover {
+    background-color: #282828;
+    cursor: pointer;
+}
+
+.playlist_box h3 {
+    font-size: 0.85rem;
+    padding-top: 1rem;
+}
+
+.playlist_box p {
+    font-weight: 400;
+}

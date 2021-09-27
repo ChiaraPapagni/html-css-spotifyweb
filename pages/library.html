@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify - La tua libreria</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/library.css">
+        <link rel="icon" href="../img/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header id="site_header" class="search_bar d_flex">
+            <div class="arrows d_flex">
+                <i class="fas fa-chevron-left fa-lg"></i>
+                <i class="fas fa-chevron-right fa-lg"></i>
+            </div>
+            <div class="playlist_menu">
+                <ul class="list_style d_flex">
+                    <li><a href="#">Playlist</a></li>
+                    <li><a href="#">Podcast</a></li>
+                    <li><a href="#">Artisti</a></li>
+                    <li><a href="#">Album</a></li>
+                </ul>
+            </div>
+            <div class="user_icon">
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </header>
+        <!-- /#site_header -->
+
+        <main id="site_main" class="d_flex">
+
+            <aside class="sidebar d_flex">
+                <div class="logo line_height">
+                    <img src="../img/logo.svg" alt="logo spotify"
+                        class="logo_big">
+                    <img src="../img/logo-small.svg" class="logo_small">
+                </div>
+                <!-- /.logo -->
+
+                <div class="menu line_height">
+                    <a href="../index.html">
+                        <div class="home d_flex">
+                            <img src="../img/home.svg">
+                            <p>Home</p>
+                        </div>
+                    </a>
+                    <a href="../pages/search.html">
+                        <div class="search d_flex">
+                            <img src="../img/search.svg">
+                            <p>Cerca</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="library d_flex">
+                            <img src="../img/libreria.svg">
+                            <p>La tua libreria</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- /.menu -->
+
+                <div class="playlist line_height">
+                    <p>Playlist</p>
+                    <div class="create">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                            Crea Playlist
+                        </a>
+                    </div>
+                    <ul class="list_style">
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                        <li>
+                            <a href="#">Nome Playlist</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.playlist -->
+
+
+                <div class="bottom_sidebar">
+                    <a href="#">
+                        <div class="install d_flex">
+                            <img src="../img/download.svg">
+                            <p>Installa app</p>
+                        </div>
+                    </a>
+                    <!-- /.install -->
+
+                    <a href="#">
+                        <div class="user d_flex">
+                            <img src="../img/profile.svg">
+                            <p>John Doe</p>
+                        </div>
+                    </a>
+                    <!-- /.user -->
+                </div>
+            </aside>
+            <!-- /.sidebars -->
+
+            <div class="container">
+                <div class="content">
+
+                    <div class="playlist_box">
+                        <h2>Playlist</h2>
+
+                        <div class="row d_flex">
+                            <div class="col d_flex">
+                                <img src="../img/library/energy.jpg">
+                                <h3>Energy Booster: Pop</h3>
+                                <p>Need to get your energy level up?</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/library/comfort.jpg">
+                                <h3>Comfort Zone</h3>
+                                <p>Chilled songs that you are familiar with - no
+                                    surprise!</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/library/ntc.jpg">
+                                <h3>Best of NTC</h3>
+                                <p>All-time favorites for yourr workout!</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/library/weekend.jpg">
+                                <h3>Finalmente Weekend</h3>
+                                <p>Musica felice per il tuo fine settimana!</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/search/rock-this.jpg">
+                                <h3>Rock This</h3>
+                                <p>The newest music from Tom Morello & Bring
+                                    Me...</p>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col d_flex">
+                                <img
+                                    src="../img/library/ab67706f00000002dd79d039ecf39d80e921b0e5.jpg">
+                                <h3>Best of Broadway</h3>
+                                <p>Musical songs from !</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/library/energy.jpg">
+                                <h3>Energy Booster: Pop</h3>
+                                <p>Need to get your energy level up?</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/library/comfort.jpg">
+                                <h3>Comfort Zone</h3>
+                                <p>Chilled songs that you are familiar with - no
+                                    surprise!</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/library/ntc.jpg">
+                                <h3>Best of NTC</h3>
+                                <p>All-time favorites for yourr workout!</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/library/weekend.jpg">
+                                <h3>Finalmente Weekend</h3>
+                                <p>Musica felice per il tuo fine settimana!</p>
+                            </div>
+                            <!-- /.col -->
+
+
+                            <div class="col d_flex">
+                                <img src="../img/search/rock-this.jpg">
+                                <h3>Rock This</h3>
+                                <p>The newest music from Tom Morello & Bring
+                                    Me...</p>
+                            </div>
+                            <!-- /.col -->
+                            <div class="col d_flex">
+                                <img
+                                    src="../img/library/ab67706f00000002dd79d039ecf39d80e921b0e5.jpg">
+                                <h3>Best of Broadway</h3>
+                                <p>Musical songs from !</p>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.content -->
+            </div>
+            <!-- /.container -->
+
+        </main>
+        <!-- /#site_main -->
+
+        <footer id="site_footer">
+
+            <div class="player d_flex">
+                <div class="left d_flex">
+                    <div class="image">
+                        <img src="../img/player_left.jpg">
+                    </div>
+                    <div class="image_desc">
+                        <h4>Hilltop Hoods</h4>
+                        <p>Clark Griswold</p>
+                    </div>
+                    <div class="actions">
+                        <i class="far fa-heart"></i>
+                        <i class="far fa-folder"></i>
+                    </div>
+                </div>
+                <div class="central d_flex">
+                    <div class="controlls d_flex">
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                        <i class="far fa-play-circle"></i>
+                        <i class="fas fa-step-forward"></i>
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <div class="timeline d_flex">
+                        <p>0:25</p>
+                        <div class="line"></div>
+                        <p>4:35</p>
+                        <div class="circle_timeline"></div>
+                    </div>
+                </div>
+                <div class="right d_flex">
+                    <i class="fas fa-list-ul"></i>
+                    <i class="fas fa-desktop"></i>
+                    <div class="volume d_flex">
+                        <i class="fas fa-volume-up"></i>
+                        <div class="volume_line">
+                            <div class="circle_volume"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.control -->
+
+        </footer>
+        <!-- /#site_footer -->
+
+    </body>
+</html>
